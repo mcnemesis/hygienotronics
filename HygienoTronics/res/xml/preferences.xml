@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:persistent="true">
+    <PreferenceCategory android:title="Yo Settings" android:persistent="true">
+        <ListPreference android:title="What's this Robot's Mode?" android:summary="Is it meant to monitor Toilet or Water Tap?" android:entryValues="@array/robot_modes" android:entries="@array/robot_modes_view" android:key="ROBOT_MODE"/>
+        <EditTextPreference android:title="Water Robot Host" android:key="WATER_ROBOT_IP" android:summary="What's IP of Water Robot?"/>
+        <EditTextPreference android:summary="What's the Dashboard Host?" android:title="Dashboard Host" android:key="DASHBOARD_IP"/>
+        <EditTextPreference android:summary="What's the Port of the Dashboard?" android:title="Dashboard Port" android:key="DASHBOARD_PORT"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

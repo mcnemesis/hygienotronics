@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="robot_modes">
+        <item >TOILET_ROBOT</item>
+        <item >TAP_ROBOT</item>      
+    </string-array>   
+    <string-array name="robot_modes_view">
+        <item >Toilet Robot</item>
+        <item >Water Tap Robot</item>
+    </string-array> 
+</resources>
